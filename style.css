@@ -39,7 +39,7 @@ img {
 footer {
     width: 100%;
     font-size: 25px;
-    color: rgb(55, 0, 255);
+    color: black;
     display: flex;
     justify-content: center;
     margin-top: 150px;
