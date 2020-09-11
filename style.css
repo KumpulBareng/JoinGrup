@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-image: url(scenery.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(KUCING.jpg);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    position: relative;
     height: 100vh;
+}
+
+img {
+    margin: 0 10px;
 }
 
 .judul {
@@ -16,143 +19,36 @@ body {
 }
 
 .judul h2 {
-    font-size: 60px;
+    font-size: 30px;
     color: white;
     text-shadow: 2px 2px 4px black;
 }
 
 .judul img {
     border-radius: 50%;
-    margin-top: -50px;
 }
 
 .container {
-    background-image: linear-gradient(to bottom, red 50%, white 50%);
-    width: 400px;
-    height: 370px;
-    border-radius: 10px;
-    position: relative;
-    margin: 20px auto 30px;
-}
-
-.whatsapp {
-    background-color: #04C04C;
-    left: 0;
-    right: 0;
-    top: 30px;
-    height: 70px;
-    position: absolute;
     display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    transition: .3s transform ease-out;
+    justify-content: center;
+    max-width: 50%;
+    margin: 40px auto 0;
 }
 
-.whatsapp:hover {
-    transform: translateY(-8px);
-}
 
-.whatsapp i,
-.whatsapp p,
-.telegram i,
-.telegram p,
-.instagram i,
-.instagram p {
-    color: white;
-}
-
-.whatsapp p,
-.telegram p,
-.instagram p {
-    font-size: 20px;
-}
-
-.whatsapp i,
-.telegram i,
-.instagram i {
-    margin: 0 20px;
-}
-
-.telegram {
-    background-color: #33A8DA;
-    left: 0;
-    right: 0;
-    top: 150px;
-    height: 70px;
-    position: absolute;
+footer {
+    width: 100%;
+    font-size: 25px;
+    color: rgb(55, 0, 255);
     display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    transition: .3s transform ease-out;
+    justify-content: center;
+    margin-top: 150px;
 }
 
-.telegram:hover {
-    transform: translateY(-8px);
-}
 
-.instagram {
-    background-image: linear-gradient(to bottom, #9B34AF, #F3B962);
-    left: 0;
-    right: 0;
-    bottom: 30px;
-    height: 70px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    transition: .3s transform ease-out;
-}
 
-.instagram:hover {
-    transform: translateY(-8px);
-}
-
-.selfie-boy {
-    position: fixed;
-}
-
-@media (max-width:320px) {
-
-    .judul h2 {
-        font-size: 35px !important;
-    }
-
-    .container {
-        margin-top: 10px;
-        width: 300px !important;
-    }
-}
-
-@media (max-width: 411px) {
-    .judul h2 {
-        font-size: 40px;
-    }
-
-    .judul img {
-        width: 100px;
-        height: 100px;
-        margin-top: -20px;
-    }
-
-    .container {
-        width: 320px;
-    }
-
-    .whatsapp p,
-    .telegram p,
-    .instagram p {
-        font-size: 18px;
-    }
-}
-
-@media (max-width:768px) {
-    .selfie-boy {
-        display: none;
-    }
-}
-
-@media (max-width:1024px) {
-    .selfie-boy {
-        left: -50px;
+@media (max-width:411px) {
+    body {
+        height: 95.5vh;
     }
 }
