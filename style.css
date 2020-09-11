@@ -12,6 +12,11 @@ body {
 
 img {
     margin: 0 10px;
+    transition: .3s opacity ease-out;
+}
+
+.sosmed:hover {
+    opacity: .7;
 }
 
 .judul {
