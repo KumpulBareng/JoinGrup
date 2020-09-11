@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans&display=swap');
 
 body {
     background-image: url(KUCING.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
     height: 100vh;
 }
