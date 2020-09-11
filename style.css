@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
+<<<<<<< HEAD
     background-image: url(KUCING.jpg);
     background-position: center;
     background-size: cover;
@@ -12,6 +13,13 @@ body {
 
 img {
     margin: 0 10px;
+=======
+    background-image: linear-gradient(to top, rgb(214, 214, 47), rgb(14, 255, 14), #2dee84);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+>>>>>>> d569962003fe9fdd256ae918b20f125eb794d4cf
 }
 
 .judul {
@@ -41,8 +49,34 @@ footer {
     font-size: 25px;
     color: rgb(55, 0, 255);
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     margin-top: 150px;
+=======
+    align-items: center;
+    box-sizing: border-box;
+    transition: .3s transform ease-out;
+}
+
+.instagram:hover {
+    transform: translateY(-8px);
+}
+
+.selfie-boy {
+    position: absolute;
+}
+
+@media (max-width:320px) {
+
+    .judul h2 {
+        font-size: 35px !important;
+    }
+
+    .container {
+        margin-top: 10px;
+        width: 300px !important;
+    }
+>>>>>>> d569962003fe9fdd256ae918b20f125eb794d4cf
 }
 
 
